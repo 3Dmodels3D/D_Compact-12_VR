@@ -8,44 +8,30 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>360 Virtual Reality</title>
     <style>
-      body { -ms-touch-action: none; }
-    </style>
-    <script type="text/javascript" src="D Compact 12_VR.201/files/KeyShotVR.js"></script>
-    <script type="text/javascript">
-      var keyshotVR;
-
-      function initKeyShotVR() {
-        var nameOfDiv = "KeyShotVR";
-        var folderName = "D Compact 12_VR.201";
-        var imageWidth = 720;
-        var imageHeight = 480;
-        var backgroundColor = "#FFFFFF";
-        var uCount = 300;
-        var vCount = 1;
-        var uWrap = true;
-        var vWrap = false;
-        var uMouseSensitivity = -0.833333;
-        var vMouseSensitivity = 1.000000;
-        var uStartIndex = 299;
-        var vStartIndex = 0;
-        var minZoom = 1.000000;
-        var maxZoom = 1.000000;
-        var rotationDamping = 0.960000;
-        var downScaleToBrowser = true;
-        var addDownScaleGUIButton = false;
-        var downloadOnInteraction = false;
-        var imageExtension = "jpg";
-        var showLoading = true;
-        var loadingIcon = "Loading.jpg"; // Set to empty string for default icon.
-        var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
-
-        keyshotVR = new keyshotVR(nameOfDiv,folderName,imageWidth,imageHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen);
+      *, html, body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        color: #666666;
       }
-
-      window.onload = initKeyShotVR;
-    </script>
+      code {
+        color: blue;
+        background-color: #F2F2F2;
+        border: 1px solid #ccc;
+        padding: 0 3px 0 3px;
+        border-radius: 3px;
+      }
+      .code {
+        color: blue;
+        padding: .3em;
+        background-color: #F2F2F2;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+    </style>
   </head>
-  <body oncontextmenu="return false;">
-    <div id="KeyShotVR"></div>
+  <body>
+     <p align=center style='margin:0in;margin-bottom:.0001pt;text-align:center;
+    word-spacing:0in'>Use mouse / finger for rotation</p>
+    <p align="center"><iframe src="D Compact 12_VR.201.html" width="720" height="480" frameborder="0" scrolling="no">iframe not supported by your browser</iframe></p>
   </body>
 </html>
